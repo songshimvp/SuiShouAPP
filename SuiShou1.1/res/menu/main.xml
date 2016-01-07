@@ -1,0 +1,36 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/actionbar_search"
+        android:actionViewClass="android.widget.SearchView"
+        android:icon="@drawable/actionbar_search_icon"
+        android:showAsAction="ifRoom|collapseActionView"
+        android:title="搜索"/>
+    
+    
+    <item
+        android:id="@+id/action_news"
+        android:icon="@drawable/men_scan_icon"
+        android:title="天下事指导"/>
+    <item
+        android:id="@+id/action_marks"
+        android:icon="@drawable/menu_group_chat_icon"
+        android:title="书香屋指导"/>
+    <item
+        android:id="@+id/action_tools"
+        android:icon="@drawable/menu_add_icon"
+        android:title="工具箱指导"/>
+    <item
+        android:id="@+id/action_games"
+        android:icon="@drawable/menu_feedback_icon"
+        android:title="娱乐房指导"/>
+    <item
+        android:id="@+id/action_comment"
+        android:icon="@drawable/menu_feedback_icon"
+        android:title="雁过留痕"/>
+
+    <item
+        android:id="@+id/action_we"
+        android:icon="@drawable/menu_group_chat_icon"
+        android:title="关于我们"/>
+</menu>
